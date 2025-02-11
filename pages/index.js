@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { useState, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Home = () => {
   return (
@@ -30,18 +30,14 @@ const Home = () => {
               display: "grid",
               fontFamily: "arial",
               justifyContent: "center",
+              textAlign: "center",
             }}
           >
-            <p1>
-              Os sabores com bolinha verde ficam por 46 reais de terça-feira à
-              quinta-feira. (exceto feriados)
-            </p1>
-            <p1 className={styles.only8slices}>
-              ⚠️ Apenas para pizza de 08 pedaços.
-            </p1>
+            <p1>Trabalhamos com pizzas de 04, 08 e 12 pedaços!</p1>
+            <p1>⬇️ Confira mais no nosso WhatsApp. ⬇️</p1>
           </div>
           <a
-            href="https://api.whatsapp.com/send/?phone=%2B5519992806234&text=Boa+noite%2C+gostaria+de+fazer+um+pedido%21&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=%2B5519992806234&text=Boa+noite%2C+vou+fazer+o+meu+pedido%21&type=phone_number&app_absent=0"
             className={styles.whatsapp}
             target="_blank"
           >
@@ -181,6 +177,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <Analytics />
       </body>
     </html>
   );
