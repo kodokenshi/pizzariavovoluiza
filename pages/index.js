@@ -14,12 +14,12 @@ const Home = () => {
       </header>
       <section>
         <a
-          href="cardapio.png"
+          href="/cardapio.png"
           target="_blank"
         >
           <img
             alt="Imagem do cardápio"
-            src="cardapio.png"
+            src="/cardapio.png"
             className={styles.img}
           />
         </a>
