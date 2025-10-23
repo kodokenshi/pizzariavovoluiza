@@ -19,7 +19,7 @@ const Home = () => {
         >
           <img
             alt="Imagem do cardápio"
-            src="https://github.com/kodokenshi/pizzariavovoluiza/blob/main/cardapio.png?raw=true"
+            src="cardapio.png"
             className={styles.img}
           />
         </a>
