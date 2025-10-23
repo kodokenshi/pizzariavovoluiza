@@ -14,7 +14,7 @@ const Home = () => {
       </header>
       <section>
         <a
-          href="https://raw.githubusercontent.com/kodokenshi/pizzariavovoluiza/refs/heads/main/cardapio.png"
+          href="cardapio.png"
           target="_blank"
         >
           <img
